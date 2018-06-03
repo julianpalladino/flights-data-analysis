@@ -1,0 +1,5 @@
+data/*.csv*
+vuelos.db
+*.db-journal
+.ipynb_checkpoints/
+__pycache__/
