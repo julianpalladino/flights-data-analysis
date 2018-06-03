@@ -1,11 +1,14 @@
-# Métodos Numéricos TP3
+# Flights data analysis
 
-## Dependencias
+## Documentation
+* All documentation can be found in **Documentation - Informe.pdf**. This includes development and experimentation
+
+## Dependencies
 
 * Python 3
 * sqlite3
 
-### Paquetes de Python
+### Python packages
 
 * numpy
 * pandas
@@ -16,10 +19,9 @@
 
 ## Preparación
 
-Para descargar y descomprimir los datos, correr `tools/download_data.sh` desde
-la raíz del proyecto.  Los archivos CSV van a quedar en el directorio `data/`
+To download and unzip the data, run `tools/download_data.sh` from the main directory. CSV files will be stored in the directory `data/`
 
-Luego correr lo siguiente para popular la base de datos y crear los índices:
+Then, run the following to fill the database and create the indexes:
 
 ```
 tools/load_ontime.sh vuelos.db
@@ -30,9 +32,7 @@ tools/create_indexes.sh vuelos.db
 
 ## Notebooks
 
-Correr `jupyter notebook` desde la raíz del proyecto. Dentro del directorio
-`notebooks/` están los archivos utilizados para la experimentación. En
-particular ver:
+Run `jupyter notebook` from the main directory. Inside the directory `notebooks/` there are the files used for experimentation. Mainly see:
 
 1. Hora de salida y delay
 2. Analisis carriers
